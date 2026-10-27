@@ -2,6 +2,13 @@
 
 > 📄 English version: [README_EN.md](README_EN.md)
 
+## 双科研技能库（Codex 云端项目）
+
+原有 19 个 Research Writing Assistant 技能继续使用；另有 9 个 Nature 专项技能和
+`nature-shared` 支持包，通过仓库内 `.agents/skills/` 注册。完整资源随 Git 保存，
+无需每次任务重新安装。调用方式、验证边界和按需外部依赖见
+[中文安装报告](docs/NATURE_SKILLS_INSTALL_REPORT.zh-CN.md)；项目规则见 [AGENTS.md](AGENTS.md)。
+
 把"论文写作"从一次性聊天，升级成可追踪、可恢复、可复用的工程化协作流程。  
 这个 Skill 面向本科生、研究生和早期科研人员，目标很直接：少走弯路，减少返工，把时间花在真正有价值的研究内容上。
 
