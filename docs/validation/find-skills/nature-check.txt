@@ -1,0 +1,11 @@
+nature-academic-search: metadata/link/resources checked; Codex discovered
+nature-ref-verifier: metadata/link/resources checked; Codex discovered
+nature-paper-xray: metadata/link/resources checked; Codex discovered
+nature-paper-card: metadata/link/resources checked; Codex discovered
+nature-reader: metadata/link/resources checked; Codex discovered
+nature-writing: metadata/link/resources checked; Codex discovered
+nature-polishing: metadata/link/resources checked; Codex discovered
+nature-figure: metadata/link/resources checked; Codex discovered
+nature-reviewer: metadata/link/resources checked; Codex discovered
+nature-shared: metadata/link/resources checked; Codex discovered
+Vendor: 435 files byte/mode checked; 170 referenced resources; pinned c1637a89c7097d486ba1c6e755e34d01cbb24998

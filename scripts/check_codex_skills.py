@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Read-only registration check; optional evidence from Codex skills/list."""
 import argparse
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -43,13 +44,43 @@ def main():
         if args.discovery_json and source.resolve() not in discovered:
             failures.append(f'{name}: not enabled in Codex discovery')
         print(f'{name}: metadata/link/resources checked' + ('; Codex discovered' if source.resolve() in discovered else ''))
-    # Additional library registrations are checked by check_nature_skills.py.
-    # Keep all original 19 source/link/resource and integrity assertions intact.
+    # Nature retains its independent byte/resource checks. find-skills is a
+    # project-level copy: validate its pinned bytes rather than requiring a link.
     lock_path = ROOT / 'third_party/nature-skills.lock.json'
     additional = set(json.loads(lock_path.read_text())['skills']) if lock_path.exists() else set()
+    find_lock = json.loads((ROOT / 'third_party/find-skills.lock.json').read_text())
+    find_path = ROOT / '.agents/skills/find-skills/SKILL.md'
+    additional.add('find-skills')
+    if find_path.parent.is_symlink() or not find_path.is_file():
+        failures.append('find-skills: missing project-level copy')
+    else:
+        data = find_path.read_bytes()
+        meta = dict(re.findall(r'^(name|description):\s*(.+)$', data.decode(), re.M))
+        if meta.get('name') != 'find-skills' or not 1 <= len(meta.get('description', '')) <= 1024:
+            failures.append('find-skills: invalid metadata')
+        if args.discovery_json:
+            matches = [s for entry in result['data'] for s in entry['skills']
+                       if s.get('name', '').rsplit(':', 1)[-1] == 'find-skills'
+                       and s.get('scope') == 'repo' and s.get('enabled')]
+            if len(matches) != 1 or Path(matches[0]['path']).resolve() != find_path.resolve():
+                failures.append('find-skills: must be discovered exactly once, enabled, scope=repo')
+        print('find-skills: metadata/project copy checked' +
+              ('; Codex discovered' if find_path.resolve() in discovered else ''))
+    for entry in find_lock['files']:
+        path = ROOT / entry['path']
+        if not path.is_file():
+            failures.append(f'find-skills: missing {entry["path"]}')
+            continue
+        data = path.read_bytes()
+        digest = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+        if digest != entry['sha']:
+            failures.append(f'find-skills: pinned bytes changed: {entry["path"]}')
+    cli_lock = json.loads((ROOT / 'skills-lock.json').read_text())
+    if set(cli_lock['skills']) != {'find-skills'} or cli_lock['skills']['find-skills']['source'] != find_lock['repository']:
+        failures.append('find-skills: unexpected CLI lock inventory/source')
     registered = {p.name for p in (ROOT / '.agents/skills').iterdir()}
     if names & additional:
-        failures.append('skill name collision between research-writing and Nature')
+        failures.append('skill name collision between research-writing and additional skills')
     if registered != names | additional:
         failures.append('registration/source inventory mismatch')
     # Preserve and run the existing PS1 assertions without executing PowerShell code.

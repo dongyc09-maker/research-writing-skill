@@ -1,0 +1,196 @@
+COMMAND: NODE_USE_ENV_PROXY=1 npx skills find 'citation verification'
+EXIT: 0
+
+Install with npx skills add <owner/repo@skill>
+
+mattpocock/skills@code-review 801.7K installs
+└ https://skills.sh/mattpocock/skills/code-review
+
+mattpocock/skills@research 721.9K installs
+└ https://skills.sh/mattpocock/skills/research
+
+galaxy-dawn/claude-scholar@citation-verification 1.5K installs
+└ https://skills.sh/galaxy-dawn/claude-scholar/citation-verification
+
+wanshuiyin/auto-claude-code-research-in-sleep@citation-audit 489 installs
+└ https://skills.sh/wanshuiyin/auto-claude-code-research-in-sleep/citation-audit
+
+ejirocodes/agent-skills@exa-research 235 installs
+└ https://skills.sh/ejirocodes/agent-skills/exa-research
+
+witt3rd/oh-my-hermes@omh-deep-research 212 installs
+└ https://skills.sh/witt3rd/oh-my-hermes/omh-deep-research
+
+kortix-ai/kortix-registry@legal-writer 126 installs
+└ https://skills.sh/kortix-ai/kortix-registry/legal-writer
+
+kalarislabs/research-agent-skills@citation-verification 114 installs
+└ https://skills.sh/kalarislabs/research-agent-skills/citation-verification
+
+boom5426/nature-paper-skills@reference-audit-guide 108 installs
+└ https://skills.sh/boom5426/nature-paper-skills/reference-audit-guide
+
+serenakeyitan/citation-check-skill@citation-check-skill 96 installs
+└ https://skills.sh/serenakeyitan/citation-check-skill/citation-check-skill
+
+lebsral/dspy-programming-not-prompting-lms-skills@ai-stopping-hallucinations 90 installs
+└ https://skills.sh/lebsral/dspy-programming-not-prompting-lms-skills/ai-stopping-hallucinations
+
+pedrohcgs/claude-code-my-workflow@validate-bib 86 installs
+└ https://skills.sh/pedrohcgs/claude-code-my-workflow/validate-bib
+
+sickn33/agentic-awesome-skills@scientific-writing 80 installs
+└ https://skills.sh/sickn33/agentic-awesome-skills/scientific-writing
+
+yipng05-max/-skills@literature-verifier 68 installs
+└ https://skills.sh/yipng05-max/-skills/literature-verifier
+
+alterlab-ieu/alterlab-academic-skills@alterlab-workflow-orchestration 57 installs
+└ https://skills.sh/alterlab-ieu/alterlab-academic-skills/alterlab-workflow-orchestration
+
+synthesisengineering/synthesis-skills@synthesis-fact-checking 55 installs
+└ https://skills.sh/synthesisengineering/synthesis-skills/synthesis-fact-checking
+
+kalarislabs/research-agent-skills@systems-paper-writing 43 installs
+└ https://skills.sh/kalarislabs/research-agent-skills/systems-paper-writing
+
+boom5426/nature-paper-skills@claim-source-verification 43 installs
+└ https://skills.sh/boom5426/nature-paper-skills/claim-source-verification
+
+mathews-tom/armory@citation-audit 40 installs
+└ https://skills.sh/mathews-tom/armory/citation-audit
+
+firecrawl/ai-research-skills@ml-paper-writing 35 installs
+└ https://skills.sh/firecrawl/ai-research-skills/ml-paper-writing
+
+
+COMMAND: NODE_USE_ENV_PROXY=1 npx skills find 'zotero'
+EXIT: 0
+
+Install with npx skills add <owner/repo@skill>
+
+k-dense-ai/scientific-agent-skills@pyzotero 2K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/pyzotero
+
+bahayonghang/academic-writing-skills@bib-search-citation 1.7K installs
+└ https://skills.sh/bahayonghang/academic-writing-skills/bib-search-citation
+
+917dhj/deeppapernote@deeppapernote 1.5K installs
+└ https://skills.sh/917dhj/deeppapernote/deeppapernote
+
+fuzhiyu/researchprojecttemplate@zotero-paper-reader 606 installs
+└ https://skills.sh/fuzhiyu/researchprojecttemplate/zotero-paper-reader
+
+hkuds/cli-anything@cli-anything-zotero 545 installs
+└ https://skills.sh/hkuds/cli-anything/cli-anything-zotero
+
+imbad0202/academic-research-skills@sr-screener 481 installs
+└ https://skills.sh/imbad0202/academic-research-skills/sr-screener
+
+galaxy-dawn/claude-scholar@zotero-obsidian-bridge 474 installs
+└ https://skills.sh/galaxy-dawn/claude-scholar/zotero-obsidian-bridge
+
+cookjohn/cnki-skills@cnki-export 412 installs
+└ https://skills.sh/cookjohn/cnki-skills/cnki-export
+
+varde80/arxiv-zotero-obsidian@arxiv-search 321 installs
+└ https://skills.sh/varde80/arxiv-zotero-obsidian/arxiv-search
+
+shoei05/claude-code-zotero-skill@zotero 248 installs
+└ https://skills.sh/shoei05/claude-code-zotero-skill/zotero
+
+agents365-ai/365-skills@zotero-dev-rules 242 installs
+└ https://skills.sh/agents365-ai/365-skills/zotero-dev-rules
+
+shzhao27208/aut_sci_write@sci-zotero 236 installs
+└ https://skills.sh/shzhao27208/aut_sci_write/sci-zotero
+
+kerim/zotero-code-execution@zotero-mcp-code 84 installs
+└ https://skills.sh/kerim/zotero-code-execution/zotero-mcp-code
+
+alterlab-ieu/alterlab-academic-skills@alterlab-pyzotero 66 installs
+└ https://skills.sh/alterlab-ieu/alterlab-academic-skills/alterlab-pyzotero
+
+kalarislabs/research-agent-skills@pyzotero 40 installs
+└ https://skills.sh/kalarislabs/research-agent-skills/pyzotero
+
+x1aox1a/zofiles@zotero-connector 35 installs
+└ https://skills.sh/x1aox1a/zofiles/zotero-connector
+
+crazymsn/academic-skills@pyzotero 35 installs
+└ https://skills.sh/crazymsn/academic-skills/pyzotero
+
+eturkes/claude-scientific-skills@pyzotero 34 installs
+└ https://skills.sh/eturkes/claude-scientific-skills/pyzotero
+
+drguptavivek/agent-skills@zotero-use 33 installs
+└ https://skills.sh/drguptavivek/agent-skills/zotero-use
+
+jxtse/scientific-research-skills@zotero-management 31 installs
+└ https://skills.sh/jxtse/scientific-research-skills/zotero-management
+
+
+COMMAND: NODE_USE_ENV_PROXY=1 npx skills find 'scientific data analysis'
+EXIT: 0
+
+Install with npx skills add <owner/repo@skill>
+
+k-dense-ai/scientific-agent-skills@statistical-analysis 2.3K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/statistical-analysis
+
+k-dense-ai/scientific-agent-skills@exploratory-data-analysis 2.2K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/exploratory-data-analysis
+
+k-dense-ai/scientific-agent-skills@markitdown 2.1K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/markitdown
+
+k-dense-ai/scientific-agent-skills@aeon 2K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/aeon
+
+k-dense-ai/scientific-agent-skills@open-notebook 2K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/open-notebook
+
+k-dense-ai/scientific-agent-skills@scikit-bio 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/scikit-bio
+
+k-dense-ai/scientific-agent-skills@geomaster 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/geomaster
+
+k-dense-ai/scientific-agent-skills@anndata 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/anndata
+
+k-dense-ai/scientific-agent-skills@gget 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/gget
+
+k-dense-ai/scientific-agent-skills@scanpy 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/scanpy
+
+davila7/claude-code-templates@market-research-reports 1.9K installs
+└ https://skills.sh/davila7/claude-code-templates/market-research-reports
+
+k-dense-ai/scientific-agent-skills@astropy 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/astropy
+
+k-dense-ai/scientific-agent-skills@deeptools 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/deeptools
+
+k-dense-ai/scientific-agent-skills@vaex 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/vaex
+
+k-dense-ai/scientific-agent-skills@scvi-tools 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/scvi-tools
+
+k-dense-ai/scientific-agent-skills@scvelo 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/scvelo
+
+k-dense-ai/scientific-agent-skills@polars-bio 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/polars-bio
+
+k-dense-ai/scientific-agent-skills@neuropixels-analysis 1.9K installs
+└ https://skills.sh/k-dense-ai/scientific-agent-skills/neuropixels-analysis
+
+davila7/claude-code-templates@exploratory-data-analysis 1.9K installs
+└ https://skills.sh/davila7/claude-code-templates/exploratory-data-analysis
+
+zlanqing/codex-claude-academic-skills@scientific-toolkit-skill 819 installs
+└ https://skills.sh/zlanqing/codex-claude-academic-skills/scientific-toolkit-skill
