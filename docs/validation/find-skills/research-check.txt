@@ -1,0 +1,21 @@
+brainstorming-research: metadata/link/resources checked; Codex discovered
+environment-setup: metadata/link/resources checked; Codex discovered
+evidence-driven-writing: metadata/link/resources checked; Codex discovered
+experiment-results-planning: metadata/link/resources checked; Codex discovered
+figures-diagram: metadata/link/resources checked; Codex discovered
+figures-python: metadata/link/resources checked; Codex discovered
+latex-output: metadata/link/resources checked; Codex discovered
+literature-review: metadata/link/resources checked; Codex discovered
+paper-orchestration: metadata/link/resources checked; Codex discovered
+peer-review: metadata/link/resources checked; Codex discovered
+prompts-collection: metadata/link/resources checked; Codex discovered
+statistical-analysis: metadata/link/resources checked; Codex discovered
+using-research-writing: metadata/link/resources checked; Codex discovered
+verification: metadata/link/resources checked; Codex discovered
+writing-chapters: metadata/link/resources checked; Codex discovered
+writing-core: metadata/link/resources checked; Codex discovered
+writing-humanities: metadata/link/resources checked; Codex discovered
+writing-law: metadata/link/resources checked; Codex discovered
+writing-medical: metadata/link/resources checked; Codex discovered
+find-skills: metadata/project copy checked; Codex discovered
+Original integrity checks: 45 content assertions; 19 registered modules

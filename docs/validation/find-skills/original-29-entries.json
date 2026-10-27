@@ -1,0 +1,118 @@
+{
+  "brainstorming-research": {
+    "link": "../../skills/brainstorming-research",
+    "sha256": "0312a30c865c16591a2045e7d2cd00d90c39faa71c8a2384e5372c14170b0853"
+  },
+  "environment-setup": {
+    "link": "../../skills/environment-setup",
+    "sha256": "dfd1b164f7e55943770cc9a31583040f5761ce367ef2997823c0d49811e4c5b4"
+  },
+  "evidence-driven-writing": {
+    "link": "../../skills/evidence-driven-writing",
+    "sha256": "a7c7010e3e75597ed389e33ef4184a0dad05d2d1bd778dff20ac8d671239260b"
+  },
+  "experiment-results-planning": {
+    "link": "../../skills/experiment-results-planning",
+    "sha256": "942667b5c294e8e03ca16da7a07401ed3bf64f344e4ae8b8668bb48118b853e0"
+  },
+  "figures-diagram": {
+    "link": "../../skills/figures-diagram",
+    "sha256": "68f6b411ce46a2f7b4ac2d7921ed446b1bf4eb658de0edf412045392a9c39595"
+  },
+  "figures-python": {
+    "link": "../../skills/figures-python",
+    "sha256": "713ff9febdcd775512166be8a82a860b5384e056ab05e8eadc7f33ec8b5b8f12"
+  },
+  "latex-output": {
+    "link": "../../skills/latex-output",
+    "sha256": "56c5a41012c5bbaee1ed39235ba41c3549b80ecb3f81b32af9a029ce7870329c"
+  },
+  "literature-review": {
+    "link": "../../skills/literature-review",
+    "sha256": "f576b04c8e7160b4e42679a3bdea3ec51b013835fd1a49af5bd2f6d8166661e8"
+  },
+  "nature-academic-search": {
+    "link": "../../third_party/nature-skills/skills/nature-academic-search",
+    "sha256": "3ed327e3e9c56cddfaa0e48ffb3503b1f9e27f917916013798ef57bf8131101a"
+  },
+  "nature-figure": {
+    "link": "../../third_party/nature-skills/skills/nature-figure",
+    "sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4"
+  },
+  "nature-paper-card": {
+    "link": "../../third_party/nature-skills/skills/nature-paper-card",
+    "sha256": "a71e3dbc446523e415ed4b896bed8ea60e0c598fb8655c587679d719648b68c9"
+  },
+  "nature-paper-xray": {
+    "link": "../../third_party/nature-skills/skills/nature-paper-xray",
+    "sha256": "c889b3751672fa453d761f0a2956cf8304b51a383be6d10f06d27f0371012d87"
+  },
+  "nature-polishing": {
+    "link": "../../third_party/nature-skills/skills/nature-polishing",
+    "sha256": "9391b2a2487306cf2ed560377d4bc10c339fd2c220a79db278cb7f9d31e79023"
+  },
+  "nature-reader": {
+    "link": "../../third_party/nature-skills/skills/nature-reader",
+    "sha256": "999a5c1b116558133d0389ce6c1bbc3dc9cf5242d1be2870358789769d97a84e"
+  },
+  "nature-ref-verifier": {
+    "link": "../../third_party/nature-skills/skills/nature-ref-verifier",
+    "sha256": "6a975074d7a1c62c00dd9e8c7367cd2af0ef9d573d6d6ce5ea12f70d9320a516"
+  },
+  "nature-reviewer": {
+    "link": "../../third_party/nature-skills/skills/nature-reviewer",
+    "sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610"
+  },
+  "nature-shared": {
+    "link": "../../third_party/nature-skills/skills/nature-shared",
+    "sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
+  },
+  "nature-writing": {
+    "link": "../../third_party/nature-skills/skills/nature-writing",
+    "sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
+  },
+  "paper-orchestration": {
+    "link": "../../skills/paper-orchestration",
+    "sha256": "bfca459452bbef47369259db3e08441739fcdd23f1385b65fc8342c34e411aa5"
+  },
+  "peer-review": {
+    "link": "../../skills/peer-review",
+    "sha256": "d2b042907384f219b0cbaf2b7e5e54dd823c9e029f9e02edad0a31c9ba8b24cc"
+  },
+  "prompts-collection": {
+    "link": "../../skills/prompts-collection",
+    "sha256": "73324622bd20cd0c7865cd36af9c6fbbfbdc3bd868c4f31fb9d7edcf540bee66"
+  },
+  "statistical-analysis": {
+    "link": "../../skills/statistical-analysis",
+    "sha256": "58fc88522e1adeb3581609a6e7cad360a1d4b842087e033a4a2bdc0cad4cd7cc"
+  },
+  "using-research-writing": {
+    "link": "../../skills/using-research-writing",
+    "sha256": "073b35e8a4b609007c9f3055473715ce6391bcf5aa3cc5a7c7935841c5d83c62"
+  },
+  "verification": {
+    "link": "../../skills/verification",
+    "sha256": "6399b814836a7e0778fca48ff1d35cad910513238526fa8780408f71e02d3c9d"
+  },
+  "writing-chapters": {
+    "link": "../../skills/writing-chapters",
+    "sha256": "a21b1f9a36bc265e9a80934f7d78748f55f41339e3d422c30853e1334697c0fc"
+  },
+  "writing-core": {
+    "link": "../../skills/writing-core",
+    "sha256": "b5d03932291e24626e55689b7415f24a0ec9dd8bc446c606a221b95675688e04"
+  },
+  "writing-humanities": {
+    "link": "../../skills/writing-humanities",
+    "sha256": "3fba9ed4c261c5cec564b208b154b9e7179721f34611d4c3a2b934710c9da5e1"
+  },
+  "writing-law": {
+    "link": "../../skills/writing-law",
+    "sha256": "51dedb8c146bb03c9b68d0d5cad945ecac95d9a18ae9d20053de9e4715bd720c"
+  },
+  "writing-medical": {
+    "link": "../../skills/writing-medical",
+    "sha256": "5f63e016fbcf9b787b06ee1efaedb47aa2fa6c9345396385ee73541db16032c0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "repository": "vercel-labs/skills",
+  "commit": "533c7df02f9b4d913fb8eba553aa99d86103d1d4",
+  "upstream_path": "skills/find-skills/SKILL.md",
+  "license": "MIT",
+  "files": [
+    {
+      "path": ".agents/skills/find-skills/SKILL.md",
+      "sha": "a41bdd074bb587afd861332cf2f473f3154de4d7",
+      "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+    },
+    {
+      "path": "third_party/find-skills.LICENSE",
+      "sha": "eabe3008f6c0275929faa8b07d406e82717648cc",
+      "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca"
+    }
+  ]
+}

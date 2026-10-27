@@ -99,3 +99,31 @@
   CLI `skills/list` 的结果不等于当前网页会话或未来平台版本已经热加载。
 
 完整安装、依赖、安全审查和验证证据见 `docs/NATURE_SKILLS_INSTALL_REPORT.zh-CN.md`。
+
+## 技能发现入口（第 30 项：find-skills）
+
+- 用户要求寻找、比较或扩展技能时，读取
+  `.agents/skills/find-skills/SKILL.md`。这是 Vercel Labs 官方技能的项目级副本，
+  与原有 19 + 10 项并存；普通科研写作仍按上述双库规则路由，不自动先搜索外部技能。
+- 可直接说“用 find-skills 查找 SCI 论文文献管理 / 引用核验 / 科研数据分析技能”。
+  先查 skills.sh 榜单，再按需要运行 `npx skills find citation`、
+  `npx skills find "scientific data analysis"`；核查候选的来源、安装量、GitHub
+  仓库和 SKILL.md 后给出推荐。安装量和星数不等于安全或科研质量保证。
+- 搜索到的第三方技能仅推荐。未经用户明确确认，不执行候选的安装命令、
+  `npx skills update`、全局 `-g` 安装或重新安装原有 29 项。
+  上游的全局安装示例不构成本仓库的安装授权；获准后默认项目级、独立分支和 PR。
+- 读取 Markdown 不需要 Node.js；执行搜索需要满足 CLI 的 Node.js 要求、npx
+  和可访问 npm / skills.sh 的网络。本次 CLI 1.7.4 要求 Node.js >=22.20.0。
+  在当前云环境，Node 24 搜索还需 `NODE_USE_ENV_PROXY=1`，例如
+  `NODE_USE_ENV_PROXY=1 npx skills find zotero`。CLI 会将网络错误显示为空结果，
+  因此不能仅凭退出码 0 或 “No skills found” 断言远端查询成功。
+  安装器不可用时，可将核验过的官方 SKILL.md 直接保存到上述路径并通过 Git 提交，
+  同时保留许可及来源记录；不能把 CLI 不可用等同于技能无法安装。
+- 变更后运行上述两个检查脚本。Codex 原生发现继续使用
+  `scripts/probe_codex_discovery.py` 和 `--discovery-json` 验证，分别报告文件可读、
+  搜索命令运行结果和原生发现；CLI 的发现结果不证明当前网页会话已经热加载。
+- 官方原文、MIT 许可和来源分别保存在 `.agents/skills/find-skills/SKILL.md`、
+  `third_party/find-skills.LICENSE`、`third_party/find-skills.lock.json`；CLI 记录为
+  `skills-lock.json`。升级通过独立 PR，保留原科研技能入口与路由。
+
+安装与验证详情见 `docs/FIND_SKILLS_INSTALL_REPORT.zh-CN.md`。
