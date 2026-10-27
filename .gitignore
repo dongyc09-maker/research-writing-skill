@@ -11,3 +11,6 @@ plan/
 
 # Local draft image sources (optional)
 assets/source-images/
+
+# Registration verification scratch and isolated Codex state
+/work/

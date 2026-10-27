@@ -3,6 +3,9 @@ name: environment-setup
 description: Use when Python environment setup is needed for data visualization or conda installation is required
 ---
 
+> Codex 路径约定：先解析当前 SKILL.md 的真实路径，其上两级为技能仓库根目录。本文 `skills/`、`scripts/`、`modules/`、`templates/`、`plan-template/`、`.codex/` 为仓库根相对路径；`references/` 及同目录资源相对本技能目录。`plan/`、`chapters/`、`refs/`、`figures/`、`tables/` 为用户论文项目路径。调用脚本请使用解析后的绝对路径，输出明确指向论文项目，不依赖当前工作目录或仓库文件夹名称。
+
+
 # 环境配置
 
 本技能用于在终端完成 Python 画图环境的全流程配置。
@@ -40,6 +43,10 @@ echo "$SHELL"
 $PSVersionTable.PSVersion
 $env:OS
 ```
+
+## 安装前安全要求
+
+注册技能不需要安装环境。优先复用现有 Python 或项目内虚拟环境；不要仅为发现技能运行下列安装命令。下载的安装程序必须固定版本，并用官方独立发布的 SHA-256 校验值核验后才可执行；下方 latest 示例缺少版本与校验，不能原样自动执行。不要无需求修改 shell 初始化或全局 pip 源。
 
 ## 二、Miniconda 安装
 

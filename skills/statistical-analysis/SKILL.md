@@ -3,6 +3,9 @@ name: statistical-analysis
 description: Use when planning or reporting statistical analysis - provides test selection, execution code, and APA format guidelines
 ---
 
+> Codex 路径约定：先解析当前 SKILL.md 的真实路径，其上两级为技能仓库根目录。本文 `skills/`、`scripts/`、`modules/`、`templates/`、`plan-template/`、`.codex/` 为仓库根相对路径；`references/` 及同目录资源相对本技能目录。`plan/`、`chapters/`、`refs/`、`figures/`、`tables/` 为用户论文项目路径。调用脚本请使用解析后的绝对路径，输出明确指向论文项目，不依赖当前工作目录或仓库文件夹名称。
+
+
 # 统计分析指南
 
 本技能提供学术论文中统计分析的选择、执行和报告指南。

@@ -1,0 +1,128 @@
+{
+  "cliVersion": "0.163.0",
+  "method": "skills/list",
+  "params": {
+    "cwds": [
+      "<repository-root>"
+    ],
+    "forceReload": true
+  },
+  "negativeControlRepoCount": 0,
+  "repoSkills": [
+    {
+      "name": "research-writing-assistant:brainstorming-research",
+      "path": "skills/brainstorming-research/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:environment-setup",
+      "path": "skills/environment-setup/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:evidence-driven-writing",
+      "path": "skills/evidence-driven-writing/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:experiment-results-planning",
+      "path": "skills/experiment-results-planning/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:figures-diagram",
+      "path": "skills/figures-diagram/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:figures-python",
+      "path": "skills/figures-python/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:latex-output",
+      "path": "skills/latex-output/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:literature-review",
+      "path": "skills/literature-review/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:paper-orchestration",
+      "path": "skills/paper-orchestration/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:peer-review",
+      "path": "skills/peer-review/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:prompts-collection",
+      "path": "skills/prompts-collection/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:statistical-analysis",
+      "path": "skills/statistical-analysis/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:using-research-writing",
+      "path": "skills/using-research-writing/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:verification",
+      "path": "skills/verification/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:writing-chapters",
+      "path": "skills/writing-chapters/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:writing-core",
+      "path": "skills/writing-core/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:writing-humanities",
+      "path": "skills/writing-humanities/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:writing-law",
+      "path": "skills/writing-law/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    },
+    {
+      "name": "research-writing-assistant:writing-medical",
+      "path": "skills/writing-medical/SKILL.md",
+      "scope": "repo",
+      "enabled": true
+    }
+  ],
+  "errors": []
+}

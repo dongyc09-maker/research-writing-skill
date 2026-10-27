@@ -29,7 +29,10 @@
 - 任何写作任务前必须完成头脑风暴
 - 中型任务必须有任务包、两阶段 review 和 capability-use audit
 - 引言和相关工作必须先完成 evidence map
-- skill 改造后运行 `scripts/check_skill_integrity.ps1`
+- skill 改造后运行 `scripts/check_skill_integrity.ps1`；Linux 无 PowerShell 时运行 `python scripts/check_codex_skills.py` 执行同一完整性断言及注册检查
+- Codex 仓库注册位于 `.agents/skills/`，逐项指向 `skills/`；完整 19 项以该目录为准，以上表格为常用技能子集
+- 路径先以当前 SKILL.md 的真实路径解析仓库根；脚本用绝对路径，论文产物写入明确的项目目录
+- 注册验证必须含实际技能发现结果，不能以安装依赖或静态检查替代
 - 稿件交付前运行 `scripts/research_quality_gate.ps1 -ProjectPath <paper-project>`
 - 必须创建 plan/ 目录记录项目信息
 - 每章写完必须让用户确认
