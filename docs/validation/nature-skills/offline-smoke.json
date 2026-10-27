@@ -1,0 +1,27 @@
+{
+  "network_requests": 0,
+  "package_installs": 0,
+  "academic_search": {
+    "workflow": "citation-file-mgmt",
+    "records": 1,
+    "authors": 42,
+    "doi_preserved": true
+  },
+  "paper_card": {
+    "operation": "bundled source-map preparation only",
+    "known_page_preserved": true,
+    "unknown_page_preserved": true
+  },
+  "reader": "bundled math QA self-test only; no full reader generated",
+  "loaded_resources": [
+    "third_party/nature-skills/skills/nature-academic-search/SKILL.md",
+    "third_party/nature-skills/skills/nature-academic-search/references/workflows/wf4-citation-file-mgmt.md",
+    "third_party/nature-skills/skills/nature-academic-search/references/ris-bibtex-format.md",
+    "third_party/nature-skills/skills/nature-paper-card/manifest.yaml",
+    "third_party/nature-skills/skills/nature-paper-card/static/core/principles.md",
+    "third_party/nature-skills/skills/nature-paper-card/static/core/workflow.md",
+    "third_party/nature-skills/skills/nature-paper-card/static/core/output-contract.md",
+    "third_party/nature-skills/skills/nature-shared/core/terminology-ledger.md"
+  ],
+  "limits": "No live search, full manuscript drafting, rendering or isolated peer review was tested."
+}

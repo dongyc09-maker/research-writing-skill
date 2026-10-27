@@ -43,8 +43,14 @@ def main():
         if args.discovery_json and source.resolve() not in discovered:
             failures.append(f'{name}: not enabled in Codex discovery')
         print(f'{name}: metadata/link/resources checked' + ('; Codex discovered' if source.resolve() in discovered else ''))
+    # Additional library registrations are checked by check_nature_skills.py.
+    # Keep all original 19 source/link/resource and integrity assertions intact.
+    lock_path = ROOT / 'third_party/nature-skills.lock.json'
+    additional = set(json.loads(lock_path.read_text())['skills']) if lock_path.exists() else set()
     registered = {p.name for p in (ROOT / '.agents/skills').iterdir()}
-    if registered != names:
+    if names & additional:
+        failures.append('skill name collision between research-writing and Nature')
+    if registered != names | additional:
         failures.append('registration/source inventory mismatch')
     # Preserve and run the existing PS1 assertions without executing PowerShell code.
     ps = (ROOT / 'scripts/check_skill_integrity.ps1').read_text()

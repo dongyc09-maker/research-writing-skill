@@ -1,2 +1,5 @@
 # Exclude README display images from source archive downloads
 img/** export-ignore
+
+# Preserve pinned upstream bytes, including its existing CRLF files.
+third_party/nature-skills/** -text

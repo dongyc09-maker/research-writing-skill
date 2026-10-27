@@ -14,3 +14,13 @@ assets/source-images/
 
 # Registration verification scratch and isolated Codex state
 /work/
+
+# Private Nature runtime configuration and Python caches (never commit secrets)
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+/third_party/nature-skills/skills/nature-academic-search/mcp-server/config.local.toml
+/third_party/nature-skills/skills/nature-academic-search/mcp-server/.venv/

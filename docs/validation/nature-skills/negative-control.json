@@ -1,0 +1,26 @@
+{
+  "operation": "Temporarily moved only ten Nature registrations to ignored work/, then restored them in finally",
+  "repo_count": 19,
+  "errors": [],
+  "names": [
+    "research-writing-assistant:brainstorming-research",
+    "research-writing-assistant:environment-setup",
+    "research-writing-assistant:evidence-driven-writing",
+    "research-writing-assistant:experiment-results-planning",
+    "research-writing-assistant:figures-diagram",
+    "research-writing-assistant:figures-python",
+    "research-writing-assistant:latex-output",
+    "research-writing-assistant:literature-review",
+    "research-writing-assistant:paper-orchestration",
+    "research-writing-assistant:peer-review",
+    "research-writing-assistant:prompts-collection",
+    "research-writing-assistant:statistical-analysis",
+    "research-writing-assistant:using-research-writing",
+    "research-writing-assistant:verification",
+    "research-writing-assistant:writing-chapters",
+    "research-writing-assistant:writing-core",
+    "research-writing-assistant:writing-humanities",
+    "research-writing-assistant:writing-law",
+    "research-writing-assistant:writing-medical"
+  ]
+}
