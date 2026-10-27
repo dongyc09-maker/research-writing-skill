@@ -3,6 +3,9 @@ name: writing-law
 description: Use when writing law papers - provides legal writing conventions, citation formats, and argumentation guidance
 ---
 
+> Codex 路径约定：先解析当前 SKILL.md 的真实路径，其上两级为技能仓库根目录。本文 `skills/`、`scripts/`、`modules/`、`templates/`、`plan-template/`、`.codex/` 为仓库根相对路径；`references/` 及同目录资源相对本技能目录。`plan/`、`chapters/`、`refs/`、`figures/`、`tables/` 为用户论文项目路径。调用脚本请使用解析后的绝对路径，输出明确指向论文项目，不依赖当前工作目录或仓库文件夹名称。
+
+
 # 法学写作专项
 
 本技能针对法学论文的写作特点，提供专项指导。

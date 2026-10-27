@@ -76,7 +76,7 @@ cd research-writing-skill
 
 ### 各平台安装
 
-- **Codex**：参考 `.codex/INSTALL.md`
+- **Codex 网页版/云端**：本仓库已通过 `.agents/skills/` 逐项注册 19 个技能；检出包含注册提交的分支并新建任务即可使用。参考 [.codex/INSTALL.md](.codex/INSTALL.md)，验证依据见 [.codex/REGISTRATION_REPORT.md](.codex/REGISTRATION_REPORT.md)。
 - **OpenCode**：参考 `.opencode/INSTALL.md`
 - **其他平台**：将整个目录放入论文项目根目录即可
 
